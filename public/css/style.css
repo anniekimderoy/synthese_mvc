@@ -1,0 +1,273 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.accueil > div {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.accueil > div > div {
+  text-align: center;
+}
+.accueil > div > div .logo {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+.accueil > div > div .login {
+  display: flex;
+  flex-direction: column;
+}
+.accueil > div > div .login input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #6c757d;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: #6c757d;
+}
+.accueil > div > div .login input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.accueil > div > div .login .submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+.accueil > div > div .login .submit:hover {
+  background-color: #0062cc;
+}
+.accueil > div > div .login .submit:active {
+  background-color: #004a99;
+}
+.accueil > div > div .login a {
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.accueil > div > div .login a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.compte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.compte > div {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.compte > div > div {
+  text-align: center;
+}
+.compte > div > div h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+.compte > div > div section {
+  display: flex;
+  flex-direction: column;
+}
+.compte > div > div section input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #6c757d;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: #6c757d;
+}
+.compte > div > div section input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.compte > div > div section .submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+.compte > div > div section .submit:hover {
+  background-color: #0062cc;
+}
+.compte > div > div section .submit:active {
+  background-color: #004a99;
+}
+.compte > div > div section a {
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.compte > div > div section a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.publications {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+.publications > header {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.publications > header .utilisateur-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.publications > header .utilisateur-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.publications > header .utilisateur-info h1 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0;
+}
+.publications > header .deconnexion {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+.publications > header .deconnexion:hover {
+  background-color: #0062cc;
+  text-decoration: none;
+}
+.publications > section.contenu {
+  flex: 1;
+  max-width: 800px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-left: 2rem;
+}
+.publications > section.contenu a.ajouter-activite {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.publications > section.contenu a.ajouter-activite:hover {
+  background-color: #0062cc;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form label p {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+form label input[type=text],
+form label input[type=file] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+form .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+form .form-select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+form div .btn.submit {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  margin-top: 1rem;
+  color: #3b5998;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

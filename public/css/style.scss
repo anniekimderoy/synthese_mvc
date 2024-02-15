@@ -1,0 +1,86 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$bg-color: #f8f9fa;
+
+body {
+  background-color: $bg-color;
+}
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  > div {
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    > div {
+      text-align: center;
+
+      .logo {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $primary-color;
+      }
+
+      .login {
+        display: flex;
+        flex-direction: column;
+
+        input {
+          margin-bottom: 1rem;
+          padding: 0.5rem;
+          border: 1px solid $secondary-color;
+          border-radius: 0.25rem;
+          font-size: 1rem;
+          color: $secondary-color;
+
+          &:focus {
+            border-color: $primary-color;
+            outline: none;
+          }
+        }
+
+        .submit {
+          background-color: $primary-color;
+          color: white;
+          border: none;
+          border-radius: 0.25rem;
+          font-size: 1.25rem;
+          font-weight: bold;
+          padding: 0.75rem;
+          cursor: pointer;
+
+          &:hover {
+            background-color: darken($primary-color, 10%);
+          }
+
+          &:active {
+            background-color: darken($primary-color, 20%);
+          }
+        }
+
+        a {
+          margin-top: 1rem;
+          color: $primary-color;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "_compte.scss";
+@import "_publications.scss";
+@import "_publications-creer.scss"
